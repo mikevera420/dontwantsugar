@@ -29,12 +29,12 @@ const faqs = [
   {
     question: "Is this coaching or therapy?",
     answer:
-      "Coaching. I'm a board-certified health and wellness coach (NBC-HWC), not a therapist or doctor. We focus on behavior change, habit formation, and lifestyle factors — not diagnosis or treatment.",
+      "Coaching. Our coaches are board-certified health and wellness coaches (NBC-HWC), not therapists or doctors. The focus is on behavior change, habit formation, and lifestyle factors, not diagnosis or treatment.",
   },
   {
     question: "What if I have an eating disorder?",
     answer:
-      "If you're actively struggling with an eating disorder, I'd recommend working with a specialized treatment provider. Health coaching can be a great complement to that work, but it's not a substitute for clinical care.",
+      "If you're actively struggling with an eating disorder, working with a specialized treatment provider is the right first step. Health coaching can be a great complement to that work, but it's not a substitute for clinical care.",
   },
 ];
 

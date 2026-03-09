@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container-narrow">
         <div className="text-center space-y-4">
           <p className="text-sm opacity-80">
-            Coaching services provided by Avantia Health Optimization
+            The Craving Code by DontWantSugar.com
           </p>
           <p className="text-sm opacity-60">© 2026</p>
         </div>

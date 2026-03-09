@@ -87,7 +87,7 @@ const IntakeForm = () => {
                   Ready to Explore?
                 </h2>
                 <p className="text-muted-foreground">
-                  Book your $1 Discovery Session. I'll be in touch within 24 hours to schedule.
+                  Book your $1 Discovery Session. Our team will be in touch within 24 hours to schedule.
                 </p>
               </div>
 
@@ -158,7 +158,7 @@ const IntakeForm = () => {
                 Got it!
               </h3>
               <p className="text-muted-foreground">
-                I'll reach out within 24 hours to schedule your discovery session.
+                We'll reach out within 24 hours to schedule your discovery session.
               </p>
             </div>
           )}

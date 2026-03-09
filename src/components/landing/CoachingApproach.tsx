@@ -16,10 +16,10 @@ const CoachingApproach = () => {
 
           <div className="space-y-4 text-foreground/80 leading-relaxed mb-12">
             <p>
-              We work one-on-one over a series of sessions. Each one builds on the last — there's a process, not random conversation. You'll get resources between sessions and support when you need it.
+              You work one-on-one with a dedicated coach over a series of sessions. Each one builds on the last. There's a process, not random conversation. You'll get resources between sessions and support when you need it.
             </p>
             <p>
-              I'm not handing you a plan and sending you off. We work together — real conversations, adjustments when something isn't landing. You're not doing this alone, and you're not following a script. You're working with someone who's been through it.
+              This isn't about handing you a plan and sending you off. It's real conversations, adjustments when something isn't landing, and a coach who understands what you're going through because they've been through it too.
             </p>
             <p className="font-medium text-foreground">
               The goal is to get to a place where sugar simply doesn't have the same pull it used to.
