@@ -12,7 +12,7 @@ const IntakeForm = () => {
             Book a $1 Discovery Session. 30 minutes to talk through your situation, explore what might be driving your cravings, and see if coaching is a good fit.
           </p>
           <a
-            href="https://avantia-health.clientsecure.me"
+            href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=3464974&require_offering=true&offering_id=229095&hide_package_images=false&primary_color=000000"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -326,7 +326,7 @@ const SugarQuiz = () => {
                   Want to go deeper? A 30-minute discovery call is just $1.
                 </p>
                 <a
-                  href="https://avantia.clientsecure.me/request/service"
+                  href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=3464974&require_offering=true&offering_id=229095&hide_package_images=false&primary_color=000000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
