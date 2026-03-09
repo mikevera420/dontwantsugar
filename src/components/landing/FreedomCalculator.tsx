@@ -91,32 +91,32 @@ const FreedomCalculator = () => {
           </div>
         </div>
 
-        {/* Results Display */}
-        <div className="bg-sage rounded-2xl p-8 md:p-12 mb-8">
-          <h3 className="text-2xl md:text-3xl font-bold text-foreground text-center mb-8">
+        {/* Results Display - Dark background for emotional punch */}
+        <div className="bg-dark rounded-2xl p-8 md:p-12 mb-8">
+          <h3 className="text-2xl md:text-3xl font-bold text-dark-foreground text-center mb-8">
             In One Year, You'd Reclaim:
           </h3>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
+              <p className="text-4xl md:text-5xl font-bold text-dark-foreground mb-2">
                 ${yearlyMoney.toLocaleString()}
               </p>
-              <p className="text-muted-foreground font-medium">back in your pocket</p>
+              <p className="text-dark-foreground/60 font-medium">back in your pocket</p>
             </div>
             <div>
-              <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
+              <p className="text-4xl md:text-5xl font-bold text-dark-foreground mb-2">
                 {yearlyHours.toLocaleString()} hours
               </p>
-              <p className="text-muted-foreground font-medium">of mental freedom</p>
-              <p className="text-sm text-muted-foreground mt-1">
+              <p className="text-dark-foreground/60 font-medium">of mental freedom</p>
+              <p className="text-sm text-dark-foreground/40 mt-1">
                 That's {yearlyDays} full days of your life
               </p>
             </div>
             <div>
-              <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
+              <p className="text-4xl md:text-5xl font-bold text-dark-foreground mb-2">
                 {yearlyCrashes.toLocaleString()}
               </p>
-              <p className="text-muted-foreground font-medium">fewer energy crashes</p>
+              <p className="text-dark-foreground/60 font-medium">fewer energy crashes</p>
             </div>
           </div>
         </div>

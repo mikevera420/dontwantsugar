@@ -1,11 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import '@fontsource/dm-sans/400.css';
 @import '@fontsource/dm-sans/500.css';
 @import '@fontsource/dm-sans/600.css';
 @import '@fontsource/dm-sans/700.css';
+@import '@fontsource/newsreader/400.css';
+@import '@fontsource/newsreader/500.css';
+@import '@fontsource/newsreader/600.css';
+@import '@fontsource/newsreader/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* The Craving Code - Design System
    Premium wellness aesthetic with warm, organic tones
@@ -13,21 +17,25 @@
 
 @layer base {
   :root {
-    /* Core Colors - Warm cream palette */
-    --background: 40 20% 97%;
-    --foreground: 0 0% 18%;
+    /* Core Colors - Warm cream palette with more contrast */
+    --background: 38 25% 96%;
+    --foreground: 25 20% 15%;
 
     /* Sage section background */
-    --sage: 120 25% 93%;
-    --sage-foreground: 0 0% 18%;
+    --sage: 120 18% 91%;
+    --sage-foreground: 25 20% 15%;
 
     /* Teal section background */
-    --teal: 180 21% 90%;
-    --teal-foreground: 0 0% 18%;
+    --teal: 175 18% 88%;
+    --teal-foreground: 25 20% 15%;
 
-    /* Accent - Deeper sage/teal */
-    --primary: 153 16% 42%;
-    --primary-foreground: 40 20% 97%;
+    /* Accent - Richer forest green */
+    --primary: 155 28% 32%;
+    --primary-foreground: 38 25% 96%;
+
+    /* Dark section (CTA, results) */
+    --dark: 25 25% 18%;
+    --dark-foreground: 38 30% 92%;
 
     /* Card styling */
     --card: 40 20% 97%;
@@ -41,8 +49,8 @@
     --secondary-foreground: 0 0% 18%;
 
     /* Muted text */
-    --muted: 40 10% 85%;
-    --muted-foreground: 0 0% 35%;
+    --muted: 38 12% 85%;
+    --muted-foreground: 25 10% 40%;
 
     --accent: 153 16% 42%;
     --accent-foreground: 40 20% 97%;
@@ -81,13 +89,13 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-semibold tracking-tight;
+    @apply font-semibold tracking-tight font-display;
   }
 }
 
 @layer utilities {
   .section-padding {
-    @apply py-20 md:py-28 px-6 md:px-12 lg:px-20;
+    @apply py-16 md:py-24 px-6 md:px-12 lg:px-20;
   }
 
   .container-narrow {

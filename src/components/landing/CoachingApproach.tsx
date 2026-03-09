@@ -26,13 +26,13 @@ const CoachingApproach = () => {
             </p>
           </div>
 
-          {/* CTA Box */}
-          <div className="bg-background rounded-2xl p-8 md:p-10 shadow-sm border border-border">
+          {/* CTA Box - Dark background for visual weight */}
+          <div className="bg-dark rounded-2xl p-8 md:p-10">
             <div className="text-center">
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+              <h3 className="text-2xl md:text-3xl font-bold text-dark-foreground mb-4">
                 $1 Discovery Session
               </h3>
-              <p className="text-muted-foreground max-w-xl mx-auto mb-8">
+              <p className="text-dark-foreground/70 max-w-xl mx-auto mb-8">
                 30 minutes to explore your situation, understand what might be driving your cravings, and see if coaching is a good fit. No pressure, no pitch — just an honest conversation.
               </p>
               <Button

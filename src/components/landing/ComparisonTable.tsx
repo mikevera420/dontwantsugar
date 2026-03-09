@@ -48,18 +48,18 @@ const features: Feature[] = [
   },
 ];
 
-const StatusIcon = ({ value }: { value: boolean | "partial" }) => {
+const StatusIcon = ({ value, highlighted }: { value: boolean | "partial"; highlighted?: boolean }) => {
   if (value === true) {
     return (
-      <div className="w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center">
-        <Check className="w-4 h-4 text-primary" />
+      <div className={`w-7 h-7 rounded-full flex items-center justify-center ${highlighted ? "bg-primary text-primary-foreground" : "bg-primary/15 text-primary"}`}>
+        <Check className="w-4 h-4" />
       </div>
     );
   }
   if (value === "partial") {
     return <Minus className="w-5 h-5 text-muted-foreground" />;
   }
-  return <X className="w-5 h-5 text-muted-foreground/50" />;
+  return <X className="w-5 h-5 text-muted-foreground/40" />;
 };
 
 const ComparisonTable = () => {
@@ -85,7 +85,7 @@ const ComparisonTable = () => {
                 <th className="py-4 px-4 font-medium text-muted-foreground text-center">
                   Tracking Apps
                 </th>
-                <th className="py-4 px-4 font-semibold text-primary text-center">
+                <th className="py-4 px-6 font-semibold text-primary text-center bg-primary/8 rounded-t-xl border-x border-t border-primary/20">
                   The Craving Code
                 </th>
               </tr>
@@ -112,9 +112,9 @@ const ComparisonTable = () => {
                       <StatusIcon value={feature.trackingApps} />
                     </div>
                   </td>
-                  <td className="py-4 px-4 text-center bg-primary/5">
+                  <td className={`py-4 px-6 text-center bg-primary/8 border-x border-primary/20 ${index === features.length - 1 ? "rounded-b-xl border-b" : ""}`}>
                     <div className="flex justify-center">
-                      <StatusIcon value={feature.cravingCode} />
+                      <StatusIcon value={feature.cravingCode} highlighted />
                     </div>
                   </td>
                 </tr>
@@ -150,10 +150,10 @@ const ComparisonTable = () => {
                     <StatusIcon value={feature.trackingApps} />
                   </div>
                 </div>
-                <div className="bg-primary/5 rounded-lg py-1">
+                <div className="bg-primary/8 rounded-lg py-1 border border-primary/20">
                   <p className="text-primary font-medium mb-1">Craving Code</p>
                   <div className="flex justify-center">
-                    <StatusIcon value={feature.cravingCode} />
+                    <StatusIcon value={feature.cravingCode} highlighted />
                   </div>
                 </div>
               </div>
