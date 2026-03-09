@@ -1,43 +1,42 @@
-import { Award, GraduationCap, HeartPulse } from "lucide-react";
+import mikeHeadshot from "@/assets/mike-vera-headshot.png";
 
 const Credentials = () => {
   return (
     <section className="section-padding bg-background">
       <div className="container-narrow">
         <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-10">
-            <span className="text-sm text-muted-foreground uppercase tracking-wider">
-              Who's Behind This
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2">
-              Built on Science, Backed by Experience
-            </h2>
-          </div>
-
-          <div className="space-y-4 text-foreground/80 leading-relaxed mb-10">
-            <p>
-              The Craving Code was built by a team of board-certified health and wellness coaches who specialize in the behavioral and biological side of cravings. Every coach on our team holds an NBC-HWC credential, and our approach is grounded in exercise science, health promotion, and real-world coaching experience.
-            </p>
-            <p>
-              Our team has coached inside clinical settings, including Stanford University School of Medicine, and brings that same evidence-based rigor to every client interaction. This isn't theory from a textbook. It's a process refined through hundreds of coaching sessions with people in exactly the same cycle you're in now.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-sage rounded-xl p-6 text-center">
-              <Award className="w-8 h-8 text-primary mx-auto mb-3" />
-              <p className="font-semibold text-foreground text-sm">NBC-HWC Certified</p>
-              <p className="text-xs text-muted-foreground mt-1">National Board Certified Health & Wellness Coaches</p>
+          <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
+            {/* Headshot - smaller, not dominating */}
+            <div className="w-36 h-36 rounded-2xl bg-sage overflow-hidden flex-shrink-0">
+              <img
+                src={mikeHeadshot}
+                alt="Mike Vera, Founder"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
-            <div className="bg-sage rounded-xl p-6 text-center">
-              <GraduationCap className="w-8 h-8 text-primary mx-auto mb-3" />
-              <p className="font-semibold text-foreground text-sm">Stanford Medicine</p>
-              <p className="text-xs text-muted-foreground mt-1">Clinical coaching experience at Stanford School of Medicine</p>
-            </div>
-            <div className="bg-sage rounded-xl p-6 text-center">
-              <HeartPulse className="w-8 h-8 text-primary mx-auto mb-3" />
-              <p className="font-semibold text-foreground text-sm">Behavior-First Approach</p>
-              <p className="text-xs text-muted-foreground mt-1">Grounded in exercise science and health promotion</p>
+
+            {/* Bio */}
+            <div className="space-y-6">
+              <div>
+                <span className="text-sm text-muted-foreground uppercase tracking-wider">
+                  Founder
+                </span>
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2">
+                  Mike Vera, MS, NBC-HWC
+                </h2>
+              </div>
+
+              <div className="space-y-4 text-foreground/80 leading-relaxed">
+                <p>
+                  Sugar and I go way back. It was woven into my childhood, the foods that meant comfort, celebration, love. That relationship didn't just disappear when I grew up. It followed me through college and into adulthood, showing up every single day.
+                </p>
+                <p>
+                  I didn't understand why it had such a grip on me until I started learning what was actually happening beneath the surface. That's what changed everything, not fighting harder, but finally seeing what sugar was actually doing. And what it wasn't.
+                </p>
+                <p>
+                  I'm a National Board Certified Health & Wellness Coach with a Master's degree in Exercise Science and Health Promotion. As a former Health Coach at Stanford University School of Medicine, I learned firsthand how behavior change works when you stop fighting and start understanding. That experience is the foundation of how our team coaches today.
+                </p>
+              </div>
             </div>
           </div>
         </div>

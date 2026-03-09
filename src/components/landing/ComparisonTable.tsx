@@ -86,7 +86,7 @@ const ComparisonTable = () => {
                   Tracking Apps
                 </th>
                 <th className="py-4 px-6 font-semibold text-primary text-center bg-primary/8 rounded-t-xl border-x border-t border-primary/20">
-                  The Craving Code
+                  Our Coaching
                 </th>
               </tr>
             </thead>
@@ -151,7 +151,7 @@ const ComparisonTable = () => {
                   </div>
                 </div>
                 <div className="bg-primary/8 rounded-lg py-1 border border-primary/20">
-                  <p className="text-primary font-medium mb-1">Craving Code</p>
+                  <p className="text-primary font-medium mb-1">Our Coaching</p>
                   <div className="flex justify-center">
                     <StatusIcon value={feature.cravingCode} highlighted />
                   </div>
