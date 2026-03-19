@@ -19,7 +19,7 @@ const Credentials = () => {
             <div className="space-y-6">
               <div>
                 <span className="text-sm text-muted-foreground uppercase tracking-wider">
-                  Founder
+                  Founder, Avantia Health Optimization
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2">
                   Mike Vera, MS, NBC-HWC
@@ -34,7 +34,7 @@ const Credentials = () => {
                   I didn't understand why it had such a grip on me until I started learning what was actually happening beneath the surface. That's what changed everything, not fighting harder, but finally seeing what sugar was actually doing. And what it wasn't.
                 </p>
                 <p>
-                  I'm a National Board Certified Health & Wellness Coach with a Master's degree in Exercise Science and Health Promotion. As a former Health Coach at Stanford University School of Medicine, I learned firsthand how behavior change works when you stop fighting and start understanding. That experience is the foundation of how our team coaches today.
+                  I'm a National Board Certified Health & Wellness Coach with a Master's degree in Exercise Science and Health Promotion. I served as a health coach in a DoD-funded Stanford Medical study on behavior change, where I learned firsthand how lasting change works when you stop fighting and start understanding. That experience is the foundation of how our team coaches today.
                 </p>
               </div>
             </div>
