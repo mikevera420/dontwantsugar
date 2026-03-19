@@ -22,10 +22,10 @@ const FreedomCalculator = () => {
       <div className="container-narrow">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            What Would You Reclaim?
+            What Could You Reclaim?
           </h2>
           <p className="text-muted-foreground text-lg">
-            Move the sliders to see what freedom actually looks like — in numbers.
+            Move the sliders to see what freedom could look like, in numbers.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const FreedomCalculator = () => {
           {/* Slider 2: Minutes per day */}
           <div className="space-y-4">
             <label className="text-foreground font-medium block">
-              How many minutes per day do you spend in the craving cycle — wanting it, resisting it, giving in, feeling bad about it?
+              How many minutes per day do you spend in the craving cycle, wanting it, resisting it, giving in, feeling bad about it?
             </label>
             <div className="flex items-center gap-4">
               <span className="text-muted-foreground w-12">5 min</span>
@@ -94,7 +94,7 @@ const FreedomCalculator = () => {
         {/* Results Display - Dark background for emotional punch */}
         <div className="bg-dark rounded-2xl p-8 md:p-12 mb-8">
           <h3 className="text-2xl md:text-3xl font-bold text-dark-foreground text-center mb-8">
-            In One Year, You'd Reclaim:
+            In One Year, You Could Reclaim:
           </h3>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
