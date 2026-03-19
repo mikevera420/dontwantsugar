@@ -19,7 +19,7 @@ const CoachingApproach = () => {
               You work one-on-one with a dedicated coach over a series of sessions. Each one builds on the last. There's a process, not random conversation. You'll get resources between sessions and support when you need it.
             </p>
             <p>
-              This isn't about handing you a plan and sending you off. It's real conversations, adjustments when something isn't landing, and a coach who understands what you're going through because they've been through it too.
+              This isn't about handing you a plan and sending you off. It's real conversations, adjustments when something isn't landing, and a coach who understands the science and the human side of behavior change.
             </p>
             <p className="font-medium text-foreground">
               The goal is to get to a place where sugar simply doesn't have the same pull it used to.
@@ -33,7 +33,7 @@ const CoachingApproach = () => {
                 $1 Discovery Session
               </h3>
               <p className="text-dark-foreground/70 max-w-xl mx-auto mb-8">
-                30 minutes to explore your situation, understand what might be driving your cravings, and see if coaching is a good fit. No pressure, no pitch — just an honest conversation.
+                30 minutes to explore your situation, understand what might be driving your cravings, and see if coaching is a good fit. No pressure, no pitch, just an honest conversation.
               </p>
               <Button
                 onClick={scrollToForm}
