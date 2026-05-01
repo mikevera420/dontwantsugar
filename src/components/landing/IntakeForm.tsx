@@ -9,10 +9,10 @@ const IntakeForm = () => {
             Ready to Explore?
           </h2>
           <p className="text-muted-foreground mb-8">
-            Book a $1 Discovery Session. 30 minutes to talk through your situation, explore what might be driving your cravings, and see if coaching is a good fit.
+            Book a $1 Coaching Call. 45 minutes to talk through your situation, explore what might be driving your cravings, and see if coaching is a good fit.
           </p>
           <a
-            href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=3464974&require_offering=true&offering_id=229095&hide_package_images=false&primary_color=000000"
+            href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=3464974&require_offering=true&offering_id=248613&hide_package_images=false&primary_color=000000"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,7 +20,7 @@ const IntakeForm = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-lg"
             >
-              Book Your Discovery Session
+              Book Your Coaching Call
             </Button>
           </a>
         </div>
