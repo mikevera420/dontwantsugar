@@ -247,7 +247,7 @@ const SugarQuiz = () => {
       const sorted = getSortedDimensions(scores!);
       const primaryDimension = sorted[0][0];
 
-      await fetch("https://n8n.avantiaautomation.com/webhook/sugar-quiz-lead", {
+      await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
