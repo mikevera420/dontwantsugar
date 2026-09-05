@@ -389,10 +389,10 @@ const SugarQuiz = () => {
 
             <div className="bg-background border border-border rounded-2xl p-8 text-center">
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Your free guide is on its way
+                The Sugar Reset is going to your email
               </h3>
               <p className="text-muted-foreground mb-6">
-                Check your email for "The Sugar Reset" with research-backed strategies
+                Check that inbox (and spam). The pattern breakdown above is already yours.
                 that work across all craving patterns.
               </p>
               <div className="border-t border-border pt-6">
@@ -467,7 +467,7 @@ const SugarQuiz = () => {
                 {isSubmitting ? "Loading your results..." : "See My Pattern Breakdown"}
               </Button>
               <p className="text-xs text-muted-foreground text-center">
-                No spam. Just your results and a short email series with research-backed strategies.
+                No spam. Your patterns show up next. The Sugar Reset comes by email. Unsubscribe anytime.
                 Unsubscribe anytime.
               </p>
             </form>
