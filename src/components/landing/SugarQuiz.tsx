@@ -279,13 +279,13 @@ const SugarQuiz = () => {
         <div className="container-narrow">
           <div className="max-w-2xl mx-auto text-center">
             <span className="text-sm text-primary uppercase tracking-wider font-medium">
-              Free Assessment
+              Craving pattern check
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
               What's Really Driving Your Sugar Cravings?
             </h2>
             <p className="text-lg text-muted-foreground mb-4">
-              Take this 3-minute assessment to uncover your unique craving patterns.
+              Map your craving patterns in a few minutes.
               You'll see your craving patterns on this page. The Sugar Reset, a short guide, arrives in your email.
               
             </p>
@@ -297,7 +297,7 @@ const SugarQuiz = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 px-10 py-6 text-lg"
             >
-              Start the Assessment
+              Start the pattern check
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
@@ -423,7 +423,7 @@ const SugarQuiz = () => {
           <div className="max-w-xl mx-auto">
             <div className="text-center mb-8">
               <span className="text-sm text-primary uppercase tracking-wider font-medium">
-                Assessment Complete
+                Pattern check complete
               </span>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mt-3 mb-2">
                 Your results are ready
