@@ -286,8 +286,8 @@ const SugarQuiz = () => {
             </h2>
             <p className="text-lg text-muted-foreground mb-4">
               Take this 3-minute assessment to uncover your unique craving patterns.
-              You'll see where your patterns show up strongest and get a free guide
-              with research-backed strategies.
+              You'll see your craving patterns on this page. The Sugar Reset, a short guide, arrives in your email.
+              
             </p>
             <p className="text-sm text-muted-foreground mb-8">
               8 questions. No judgment. Just clarity.
@@ -389,11 +389,11 @@ const SugarQuiz = () => {
 
             <div className="bg-background border border-border rounded-2xl p-8 text-center">
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Your free guide is on its way
+                The Sugar Reset is going to your email
               </h3>
               <p className="text-muted-foreground mb-6">
-                Check your email for "The Sugar Reset" with research-backed strategies
-                that work across all craving patterns.
+                Check that inbox (and spam). The pattern breakdown above is already yours.
+                
               </p>
               <div className="border-t border-border pt-6">
                 <p className="text-sm text-muted-foreground mb-4">
@@ -429,8 +429,8 @@ const SugarQuiz = () => {
                 Your results are ready
               </h2>
               <p className="text-muted-foreground">
-                Enter your email to see your full pattern breakdown and get a free guide
-                with research-backed strategies for each craving pattern.
+                Enter your email to unlock the pattern breakdown on this page. I'll send The Sugar Reset to this inbox.
+                
               </p>
             </div>
 
@@ -467,8 +467,8 @@ const SugarQuiz = () => {
                 {isSubmitting ? "Loading your results..." : "See My Pattern Breakdown"}
               </Button>
               <p className="text-xs text-muted-foreground text-center">
-                No spam. Just your results and a short email series with research-backed strategies.
-                Unsubscribe anytime.
+                No spam. Your patterns show up next. The Sugar Reset comes by email. Unsubscribe anytime. 
+
               </p>
             </form>
           </div>
