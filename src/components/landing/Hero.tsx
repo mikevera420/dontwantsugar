@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 
+
 const Hero = () => {
   return (
     <section className="min-h-[70vh] flex items-center section-padding bg-background">
@@ -16,9 +17,10 @@ const Hero = () => {
             onClick={() => document.getElementById("sugar-quiz")?.scrollIntoView({ behavior: "smooth" })}
             className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground rounded-lg text-lg font-medium hover:bg-primary/90 transition-colors"
           >
-            Take the Free Assessment
+            Map your craving patterns
           </button>
         </div>
+
 
         {/* Scroll indicator */}
         <div className="flex flex-col items-center mt-16 opacity-60">
@@ -30,4 +32,6 @@ const Hero = () => {
   );
 };
 
+
 export default Hero;
+
