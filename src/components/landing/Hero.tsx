@@ -1,6 +1,5 @@
 import { ChevronDown } from "lucide-react";
 
-
 const Hero = () => {
   return (
     <section className="min-h-[70vh] flex items-center section-padding bg-background">
@@ -21,7 +20,6 @@ const Hero = () => {
           </button>
         </div>
 
-
         {/* Scroll indicator */}
         <div className="flex flex-col items-center mt-16 opacity-60">
           <span className="text-sm text-muted-foreground mb-2">Scroll to explore</span>
@@ -31,7 +29,6 @@ const Hero = () => {
     </section>
   );
 };
-
 
 export default Hero;
 
