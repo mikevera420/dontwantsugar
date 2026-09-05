@@ -1,10 +1,6 @@
 import { Button } from "@/components/ui/button";
 
 const CoachingApproach = () => {
-  const scrollToForm = () => {
-    const formSection = document.getElementById("intake-form");
-    formSection?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <section className="section-padding bg-sage" id="coaching-approach">
@@ -33,15 +29,9 @@ const CoachingApproach = () => {
                 $1 Discovery Session
               </h3>
               <p className="text-dark-foreground/70 max-w-xl mx-auto mb-8">
-                30 minutes to explore your situation, understand what might be driving your cravings, and see if coaching is a good fit. No pressure, no pitch, just an honest conversation.
+                45 minutes to explore your situation, understand what might be driving your cravings, and see if coaching is a good fit. No pressure, no pitch, just an honest conversation.
               </p>
-              <Button
-                onClick={scrollToForm}
-                size="lg"
-                className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-lg"
-              >
-                Book Your Discovery Session
-              </Button>
+              <a                 href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=3464974&require_offering=true&offering_id=248613&hide_package_images=false&primary_color=000000"                 target="_blank"                 rel="noopener noreferrer"               >                 <Button                   size="lg"                   className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-6 text-lg"                 >                   Book Your Discovery Session                 </Button>               </a>
             </div>
           </div>
         </div>
