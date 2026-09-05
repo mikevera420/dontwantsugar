@@ -467,7 +467,7 @@ const SugarQuiz = () => {
                 {isSubmitting ? "Loading your results..." : "See My Pattern Breakdown"}
               </Button>
               <p className="text-xs text-muted-foreground text-center">
-                No spam. Your patterns show up next. The Sugar Reset comes by email. 
+                No spam. Your patterns show up next. The Sugar Reset comes by email. Unsubscribe anytime. 
 
               </p>
             </form>
