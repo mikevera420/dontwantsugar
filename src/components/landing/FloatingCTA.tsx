@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
-
 const FloatingCTA = () => {
   const [isVisible, setIsVisible] = useState(false);
-
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,20 +11,16 @@ const FloatingCTA = () => {
       setIsVisible(window.scrollY > heroHeight);
     };
 
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
 
   const scrollToQuiz = () => {
     const quizSection = document.getElementById("sugar-quiz");
     quizSection?.scrollIntoView({ behavior: "smooth" });
   };
 
-
   if (!isVisible) return null;
-
 
   return (
     <div className="fixed bottom-6 right-6 z-50 animate-float-in">
