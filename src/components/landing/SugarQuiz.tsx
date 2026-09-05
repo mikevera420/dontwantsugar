@@ -286,8 +286,8 @@ const SugarQuiz = () => {
             </h2>
             <p className="text-lg text-muted-foreground mb-4">
               Take this 3-minute assessment to uncover your unique craving patterns.
-              You'll see where your patterns show up strongest and get a free guide
-              with research-backed strategies.
+              You'll see your craving patterns on this page. The Sugar Reset, a short guide, arrives in your email.
+              
             </p>
             <p className="text-sm text-muted-foreground mb-8">
               8 questions. No judgment. Just clarity.
@@ -429,8 +429,8 @@ const SugarQuiz = () => {
                 Your results are ready
               </h2>
               <p className="text-muted-foreground">
-                Enter your email to see your full pattern breakdown and get a free guide
-                with research-backed strategies for each craving pattern.
+                Enter your email to unlock the pattern breakdown on this page. I'll send The Sugar Reset to this inbox.
+                
               </p>
             </div>
 
