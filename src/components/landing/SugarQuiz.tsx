@@ -393,7 +393,7 @@ const SugarQuiz = () => {
               </h3>
               <p className="text-muted-foreground mb-6">
                 Check that inbox (and spam). The pattern breakdown above is already yours.
-                that work across all craving patterns.
+                
               </p>
               <div className="border-t border-border pt-6">
                 <p className="text-sm text-muted-foreground mb-4">
@@ -468,7 +468,7 @@ const SugarQuiz = () => {
               </Button>
               <p className="text-xs text-muted-foreground text-center">
                 No spam. Your patterns show up next. The Sugar Reset comes by email. 
-                Unsubscribe anytime.
+
               </p>
             </form>
           </div>
