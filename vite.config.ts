@@ -6,7 +6,6 @@ import { seoListedPrerender } from "./plugins/seoListedPrerender";
 
 /**
  * Listed SEO routes prerendered at build into dist/<route>/index.html.
- * Uncomment page 2 when that route ships.
  */
 const SEO_PRERENDER_PAGES = [
   {
@@ -17,14 +16,17 @@ const SEO_PRERENDER_PAGES = [
     canonical: "https://idontwantsugar.com/sugar-craving-assessment",
     bodyFile: path.resolve(__dirname, "src/seo/content/sugar-craving-assessment.body.html"),
   },
-  // {
-  //   route: "/stop-sugar-cravings-without-willpower",
-  //   title: "How to Stop Sugar Cravings Without Willpower: Start With the Pattern",
-  //   description:
-  //     "Learn what to do when a sugar craving hits, then explore stress response, energy patterns, habit loops, and reward circuits without rigid rules or shame.",
-  //   canonical: "https://idontwantsugar.com/stop-sugar-cravings-without-willpower",
-  //   bodyFile: path.resolve(__dirname, "src/seo/content/stop-sugar-cravings-without-willpower.body.html"),
-  // },
+  {
+    route: "/stop-sugar-cravings-without-willpower",
+    title: "How to Stop Sugar Cravings Without Willpower: Start With the Pattern",
+    description:
+      "Learn what to do when a sugar craving hits, then explore stress response, energy patterns, habit loops, and reward circuits without rigid rules or shame.",
+    canonical: "https://idontwantsugar.com/stop-sugar-cravings-without-willpower",
+    bodyFile: path.resolve(
+      __dirname,
+      "src/seo/content/stop-sugar-cravings-without-willpower.body.html",
+    ),
+  },
 ];
 
 // https://vitejs.dev/config/

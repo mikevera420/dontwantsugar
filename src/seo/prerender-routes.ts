@@ -4,5 +4,5 @@
  */
 export const SEO_PRERENDER_ROUTES = [
   "/sugar-craving-assessment",
-  // "/stop-sugar-cravings-without-willpower",
+  "/stop-sugar-cravings-without-willpower",
 ] as const;
