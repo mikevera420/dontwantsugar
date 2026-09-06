@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import SugarCravingAssessment from "./pages/SugarCravingAssessment";
+import StopSugarCravingsWithoutWillpower from "./pages/StopSugarCravingsWithoutWillpower";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -18,6 +19,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/sugar-craving-assessment" element={<SugarCravingAssessment />} />
+          <Route
+            path="/stop-sugar-cravings-without-willpower"
+            element={<StopSugarCravingsWithoutWillpower />}
+          />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
