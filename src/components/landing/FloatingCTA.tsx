@@ -34,3 +34,5 @@ const FloatingCTA = () => {
   );
 };
 
+
+export default FloatingCTA;
