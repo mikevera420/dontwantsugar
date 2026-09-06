@@ -28,10 +28,11 @@ const FloatingCTA = () => {
         onClick={scrollToQuiz}
         className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg px-6 py-3 text-base font-medium rounded-full"
       >
-        Take the Free Assessment
+        Map your craving patterns
       </Button>
     </div>
   );
 };
+
 
 export default FloatingCTA;

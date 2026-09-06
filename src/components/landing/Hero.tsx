@@ -16,7 +16,7 @@ const Hero = () => {
             onClick={() => document.getElementById("sugar-quiz")?.scrollIntoView({ behavior: "smooth" })}
             className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground rounded-lg text-lg font-medium hover:bg-primary/90 transition-colors"
           >
-            Take the Free Assessment
+            Map your craving patterns
           </button>
         </div>
 
