@@ -38,6 +38,9 @@ const SugarCravingAssessment = () => {
     upsertMeta("property", "og:url", CANONICAL);
     upsertCanonical(CANONICAL);
 
+    // Signal vite-plugin-prerender that the route is ready to snapshot.
+    document.dispatchEvent(new Event("prerender-ready"));
+
     return () => {
       document.title = prevTitle;
     };
